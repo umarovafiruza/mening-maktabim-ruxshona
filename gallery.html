@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Galereya - Maktab Hayotidan Fotolavhalar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span><i class="fa-solid fa-location-dot text-sky"></i> Toshkent sh., Chilonzor tumani, Bunyodkor shoh ko'chasi 42-uy</span>
+        <span><i class="fa-solid fa-clock text-sky"></i> Dush - Shan: 08:00 - 18:00</span>
+        <a href="tel:+998712000000"><i class="fa-solid fa-phone text-sky"></i> +998 (71) 200-00-00</a>
+      </div>
+      <div class="top-bar-actions">
+        <div class="social-links">
+          <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon-wrap"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="brand-text">
+          <span class="brand-title">10-SONLI MAKTAB</span>
+          <span class="brand-subtitle">Umumiy O‘rta Ta’lim Maktabi</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html" class="nav-link">Bosh sahifa</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">Maktab haqida</a></div>
+
+        <div class="nav-item">
+          <a href="#" class="nav-link has-dropdown">Jamoa</a>
+          <div class="dropdown-menu">
+            <a href="leadership.html" class="dropdown-link"><i class="fa-solid fa-user-tie"></i> Rahbariyat</a>
+            <a href="teachers.html" class="dropdown-link"><i class="fa-solid fa-chalkboard-user"></i> O‘qituvchilar</a>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#" class="nav-link has-dropdown">O‘quvchilar</a>
+          <div class="dropdown-menu">
+            <a href="talented-students.html" class="dropdown-link"><i class="fa-solid fa-star"></i> Iqtidorli o‘quvchilar</a>
+            <a href="achievements.html" class="dropdown-link"><i class="fa-solid fa-trophy"></i> Yutuqlar</a>
+            <a href="events.html" class="dropdown-link"><i class="fa-solid fa-calendar-check"></i> Tadbirlar</a>
+          </div>
+        </div>
+
+        <div class="nav-item active"><a href="gallery.html" class="nav-link">Media</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Aloqa</a></div>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <a href="https://emaktab.uz" target="_blank" rel="noopener noreferrer" class="btn-emaktab">
+          <span class="btn-emaktab-dot"></span>
+          <i class="fa-solid fa-laptop-code"></i>
+          <span>eMaktab</span>
+        </a>
+        <button class="hamburger" aria-label="Menyuni ochish">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-header-title">Media Galereya</h1>
+      <div class="page-breadcrumb">
+        <a href="index.html">Bosh sahifa</a>
+        <span>/</span>
+        <a href="#">Media</a>
+        <span>/</span>
+        <span>Galereya</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Section -->
+  <section class="section section-bg-white">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-navy">Foto Arxivi</div>
+        <h2 class="section-title">Maktabimiz Hayoti Fotolarda</h2>
+        <p class="section-subtitle">
+          Rasmni bosib kattalashtirilgan formatda tomosha qilishingiz mumkin.
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div class="gallery-filters">
+        <button class="gallery-filter-btn active" data-filter="all">Hammasi</button>
+        <button class="gallery-filter-btn" data-filter="life">Maktab hayoti</button>
+        <button class="gallery-filter-btn" data-filter="events">Tadbirlar</button>
+        <button class="gallery-filter-btn" data-filter="study">O‘quv jarayoni</button>
+        <button class="gallery-filter-btn" data-filter="campus">Maktab binosi</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- 1: Campus -->
+        <div class="gallery-item" data-category="campus">
+          <img src="rasmlar/482009129_1835379577303361_8851483117513810448_n.jpg" alt="10-maktab binosi">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Maktab binosi</span>
+            <h4 class="gallery-title">10-sonli maktab binosi va "Bilimlar kuni" umumiy saflanishi</h4>
+          </div>
+        </div>
+
+        <!-- 2: Study -->
+        <div class="gallery-item" data-category="study">
+          <img src="rasmlar/480786408_1684707389089853_8817463549594454429_n.jpg" alt="Interaktiv dars">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">O‘quv jarayoni</span>
+            <h4 class="gallery-title">Ingliz tili va axborot texnologiyalari uyg'unligidagi interaktiv dars</h4>
+          </div>
+        </div>
+
+        <!-- 3: Events -->
+        <div class="gallery-item" data-category="events">
+          <img src="rasmlar/481165306_1684708215756437_6680133487368846154_n.jpg" alt="Amir Temur tadbiri">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Tadbirlar</span>
+            <h4 class="gallery-title">Sohibqiron Amir Temur tavalludiga bag'ishlangan bayram dasturi</h4>
+          </div>
+        </div>
+
+        <!-- 4: Study -->
+        <div class="gallery-item" data-category="study">
+          <img src="rasmlar/482007189_1836757640498888_2862258268097526172_n.jpg" alt="Kitobga sodiq bo'ling ochiq darsi">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">O‘quv jarayoni</span>
+            <h4 class="gallery-title">"Kitobga sodiq bo'ling" adabiyot ochiq darsi va allomalar siymosi</h4>
+          </div>
+        </div>
+
+        <!-- 5: Life -->
+        <div class="gallery-item" data-category="life">
+          <img src="rasmlar/481910084_1836891023818883_956391283838270270_n.jpg" alt="Kutubxona">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Maktab hayoti</span>
+            <h4 class="gallery-title">Maktab axborot-resurs markazi (kutubxona fondi) mutolaa soati</h4>
+          </div>
+        </div>
+
+        <!-- 6: Campus -->
+        <div class="gallery-item" data-category="campus">
+          <img src="rasmlar/481360460_1684712399089352_938370352826059078_n.jpg" alt="Maktab hovlisi">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Maktab binosi</span>
+            <h4 class="gallery-title">Maktab hovlisi va FVV bilan hamkorlikdagi xavfsizlik amaliyoti</h4>
+          </div>
+        </div>
+
+        <!-- 7: Study -->
+        <div class="gallery-item" data-category="study">
+          <img src="rasmlar/477008538_1702284824055592_9087923979554947423_n.jpg" alt="Boshlang'ich dars">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">O‘quv jarayoni</span>
+            <h4 class="gallery-title">Boshlang'ich sinflarda "Non — aziz ne'mat" ko'rgazmali darsi</h4>
+          </div>
+        </div>
+
+        <!-- 8: Life -->
+        <div class="gallery-item" data-category="life">
+          <img src="rasmlar/481416235_1684701942423731_5000009368877587380_n.jpg" alt="Maktab hayoti ko'rgazmasi">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Maktab hayoti</span>
+            <h4 class="gallery-title">"Maktab hayoti" ijodiy ko'rgazmasi va o'quvchilar loyihalari</h4>
+          </div>
+        </div>
+
+        <!-- 9: Events -->
+        <div class="gallery-item" data-category="events">
+          <img src="rasmlar/481960148_1838658316975487_6191586758133155290_n.jpg" alt="Vatan himoyachilari">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Tadbirlar</span>
+            <h4 class="gallery-title">"Vatan himoyasi — muqaddas burch" harbiy-vatanparvarlik tadbiri</h4>
+          </div>
+        </div>
+
+        <!-- 10: Events -->
+        <div class="gallery-item" data-category="events">
+          <img src="rasmlar/481046734_1683302989230293_232188053367136471_n.jpg" alt="8-mart bayrami">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Tadbirlar</span>
+            <h4 class="gallery-title">"8-Mart — Xalqaro xotin-qizlar kuni" tantanali bayram konserti</h4>
+          </div>
+        </div>
+
+        <!-- 11: Events -->
+        <div class="gallery-item" data-category="events">
+          <img src="rasmlar/481044955_1683921895835069_5739730908314389312_n.jpg" alt="Navro'z bayrami">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Tadbirlar</span>
+            <h4 class="gallery-title">"Navro'zi olam" milliy urf-odatlar va bahor taomlari sayli</h4>
+          </div>
+        </div>
+
+        <!-- 12: Life -->
+        <div class="gallery-item" data-category="life">
+          <img src="rasmlar/483987269_1840717083436277_4543032075003324965_n.jpg" alt="Zakovat intellektual o'yini">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Maktab hayoti</span>
+            <h4 class="gallery-title">Sinflararo "Zakovat" intellektual turniri va ilmiy bahslar</h4>
+          </div>
+        </div>
+
+        <!-- 13: Campus / Sport -->
+        <div class="gallery-item" data-category="campus">
+          <img src="rasmlar/481986961_1838651740309478_253656501284160516_n.jpg" alt="Sport majmuasi">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Maktab binosi</span>
+            <h4 class="gallery-title">Katta sport zali majmuasi va sog'lomlashtirish to'garaklari</h4>
+          </div>
+        </div>
+
+        <!-- 14: Events -->
+        <div class="gallery-item" data-category="events">
+          <img src="rasmlar/481707261_1837441993763786_6741143933556614830_n.jpg" alt="Davlat bayrog'i kuni">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Tadbirlar</span>
+            <h4 class="gallery-title">"O'zbekiston Davlat bayrog'i kuni"ga bag'ishlangan saflanish</h4>
+          </div>
+        </div>
+
+        <!-- 15: Events -->
+        <div class="gallery-item" data-category="events">
+          <img src="rasmlar/480827567_1683917305835528_8225702891895058932_n.jpg" alt="Do'stlik festivali">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Tadbirlar</span>
+            <h4 class="gallery-title">"Millatlararo do'stlik va mehmondo'stlik" umummaktab festivali</h4>
+          </div>
+        </div>
+
+        <!-- 16: Life -->
+        <div class="gallery-item" data-category="life">
+          <img src="rasmlar/480724186_1683917309168861_483301358649354570_n.jpg" alt="G'oliblarni taqdirlash">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">Maktab hayoti</span>
+            <h4 class="gallery-title">Tanlov va musobaqalarda faxrli o'rin olgan o'quvchilarni taqdirlash</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 10-sonli umumiy o‘rta ta’lim maktabi.</p>
+        <p><a href="index.html">Bosh sahifaga qaytish</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

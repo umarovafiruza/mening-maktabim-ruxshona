@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yutuqlarimiz - Olimpiada, Tanlov va Sport Natijalari</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <span><i class="fa-solid fa-location-dot text-sky"></i> Toshkent sh., Chilonzor tumani, Bunyodkor shoh ko'chasi 42-uy</span>
+        <span><i class="fa-solid fa-clock text-sky"></i> Dush - Shan: 08:00 - 18:00</span>
+        <a href="tel:+998712000000"><i class="fa-solid fa-phone text-sky"></i> +998 (71) 200-00-00</a>
+      </div>
+      <div class="top-bar-actions">
+        <div class="social-links">
+          <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon-wrap"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="brand-text">
+          <span class="brand-title">10-SONLI MAKTAB</span>
+          <span class="brand-subtitle">Umumiy O‘rta Ta’lim Maktabi</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html" class="nav-link">Bosh sahifa</a></div>
+        <div class="nav-item"><a href="about.html" class="nav-link">Maktab haqida</a></div>
+
+        <div class="nav-item">
+          <a href="#" class="nav-link has-dropdown">Jamoa</a>
+          <div class="dropdown-menu">
+            <a href="leadership.html" class="dropdown-link"><i class="fa-solid fa-user-tie"></i> Rahbariyat</a>
+            <a href="teachers.html" class="dropdown-link"><i class="fa-solid fa-chalkboard-user"></i> O‘qituvchilar</a>
+          </div>
+        </div>
+
+        <div class="nav-item active">
+          <a href="#" class="nav-link has-dropdown">O‘quvchilar</a>
+          <div class="dropdown-menu">
+            <a href="talented-students.html" class="dropdown-link"><i class="fa-solid fa-star"></i> Iqtidorli o‘quvchilar</a>
+            <a href="achievements.html" class="dropdown-link"><i class="fa-solid fa-trophy"></i> Yutuqlar</a>
+            <a href="events.html" class="dropdown-link"><i class="fa-solid fa-calendar-check"></i> Tadbirlar</a>
+          </div>
+        </div>
+
+        <div class="nav-item"><a href="gallery.html" class="nav-link">Media</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">Aloqa</a></div>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <a href="https://emaktab.uz" target="_blank" rel="noopener noreferrer" class="btn-emaktab">
+          <span class="btn-emaktab-dot"></span>
+          <i class="fa-solid fa-laptop-code"></i>
+          <span>eMaktab</span>
+        </a>
+        <button class="hamburger" aria-label="Menyuni ochish">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-header-title">Maktabimiz Yutuqlari</h1>
+      <div class="page-breadcrumb">
+        <a href="index.html">Bosh sahifa</a>
+        <span>/</span>
+        <a href="#">O‘quvchilar</a>
+        <span>/</span>
+        <span>Yutuqlar</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Achievements Detailed Grid -->
+  <section class="section section-bg-white">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge badge-sky"><i class="fa-solid fa-award"></i> Shon-Sharaf Zali</div>
+        <h2 class="section-title">G'alaba va E'tiroflar Tarixi</h2>
+        <p class="section-subtitle">
+          Maktabimiz jamoasining tinimsiz mehnati, intellektual salohiyati va musobaqalardagi muvaffaqiyatlari haqida batafsil ma'lumotlar.
+        </p>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="achieve-tabs">
+        <button class="achieve-tab-btn active" data-target="all">Barcha yutuqlar</button>
+        <button class="achieve-tab-btn" data-target="students">O‘quvchilar yutuqlari</button>
+        <button class="achieve-tab-btn" data-target="teachers">O‘qituvchilar yutuqlari</button>
+        <button class="achieve-tab-btn" data-target="competitions">Olimpiada va Sport</button>
+      </div>
+
+      <div class="achieve-grid">
+        <!-- 1 -->
+        <div class="achieve-card" data-category="competitions" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/480724186_1683917309168861_483301358649354570_n.jpg" alt="Olimpiada sovrindorlari" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">Xalqaro va Respublika Fan Olimpiadalari</h3>
+            <p class="achieve-desc">
+              Maktabimiz o'quvchilari nufuzli fan olimpiadalari hamda bilimlar bellashuvida faxrli diplomlar va qimmatbaho sovg'alar bilan taqdirlandilar.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-sky">Olimpiada</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="achieve-card" data-category="teachers" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/481250258_1836049597236359_7749384104113567819_n.jpg" alt="Fidoiy ustozlar" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">"Yilning Eng Yaxshi Fidoiy Ustozlari"</h3>
+            <p class="achieve-desc">
+              Pedagoglarimiz Vazirlik tomonidan o'tkazilgan reytingda va tanlovlarda oliy o'rinlarni egallab, tashakkurnomalar va orden-medallar bilan taqdirlandi.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-navy">Respublika</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="achieve-card" data-category="students" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/483987269_1840717083436277_4543032075003324965_n.jpg" alt="Zakovat turniri" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">Respublika Zakovat va Intellektual Chempionati</h3>
+            <p class="achieve-desc">
+              Maktabimiz "Zakovat" jamoasi tuman va shahar bosqichlarida barcha bellashuvlarda g'alaba qozonib, chempionlik kubogini qo'lga kiritdi.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-emerald">Intellekt</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="achieve-card" data-category="competitions" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/482068459_1838658303642155_6339667709216380659_n.jpg" alt="Sport chempionati" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">Shahar va Tuman Sport Spartakiadalari</h3>
+            <p class="achieve-desc">
+              Voleybol, basketbol va estafeta o'yinlarida maktab terma jamoasi peshqadamlikni saqlab qolib, ko'plab sovrinli o'rinlarni zabt etdi.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2023-2024</span>
+              <span class="badge badge-sky">Sport</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="achieve-card" data-category="teachers" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/480608899_1683302945896964_6272770045335110023_n.jpg" alt="Ilmiy-amaliy konferensiya" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">Ilmiy Konferensiyalar va Metodik Qo'llanmalar</h3>
+            <p class="achieve-desc">
+              Ustozlarimiz tomonidan yaratilgan innovatsion dars ishlanmalari viloyat va respublika o'quv-uslubiy kengashlarida yuqori baholandi.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-navy">Ilmiy Yutuq</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="achieve-card" data-category="students" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/482023517_1836775623830423_8704807621694357974_n.jpg" alt="Tasviriy san'at tanlovi" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">Ijodiy Ko'rgazmalar va Tasviriy San'at</h3>
+            <p class="achieve-desc">
+              "Yo'l harakati qoidalariga rioya qilamiz" va milliy qadriyatlar mavzusidagi ko'rgazmalarda o'quvchilarimiz 1-darajali sertifikatlar sohibi bo'lishdi.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-emerald">Ijodiyot</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="achieve-card" data-category="competitions" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/481467638_1836051060569546_5886113357977817819_n.jpg" alt="Sport musobaqasi" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">"Quvnoq Startlar" va Spartakiada G'olibi</h3>
+            <p class="achieve-desc">
+              O'quvchi va o'qituvchilar o'rtasidagi sog'lom turmush tarzi musobaqalarida maktabimiz vakillari doimiy ravishda peshqadamlar safida.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-sky">Sport</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="achieve-card" data-category="students" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/480786408_1684707389089853_8817463549594454429_n.jpg" alt="Chet tillari yutuqlari" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">Xorijiy Tillar va CEFR / Milliy Sertifikatlar</h3>
+            <p class="achieve-desc">
+              O'quvchilarimiz chet tillari bo'yicha milliy va xalqaro baholash tizimlarida yuqori natijalar ko'rsatib, muddatidan oldin imtiyozlarga ega bo'lmoqda.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-emerald">Chet Tillari</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="achieve-card" data-category="teachers" style="padding: 0; overflow: hidden;">
+          <div style="height: 180px; overflow: hidden;">
+            <img src="rasmlar/480827567_1683917305835528_8225702891895058932_n.jpg" alt="Madaniy festival" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;">
+          </div>
+          <div style="padding: 22px; display: flex; flex-direction: column; flex-grow: 1;">
+            <h3 class="achieve-title">Ma'naviy-Ma'rifiy Tadbirlar Tanlovi</h3>
+            <p class="achieve-desc">
+              Tuman miqyosidagi "Eng namunali ma'naviyat xonasi" va milliy an'analar festivalida 10-maktab jamoasi 1-o'rin sohibi bo'ldi.
+            </p>
+            <div class="achieve-footer">
+              <span class="achieve-year">2024-yil</span>
+              <span class="badge badge-navy">Ma'naviyat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 10-sonli umumiy o‘rta ta’lim maktabi.</p>
+        <p><a href="index.html">Bosh sahifaga qaytish</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
